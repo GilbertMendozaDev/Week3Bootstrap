@@ -9,19 +9,19 @@
     <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark ">
         <div class="container">
             <a href="#" class="navbar-brand">Credit Bank</a> 
             <div class="collapse navbar-collapse">
-                <ul class="navbar-nav ms-auto">
+                <ul class="navbar-nav ms-auto me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a href="#index.html" class="navbar-link">Home Page</a>
+                        <a href="index.html" class="navbar-link">Home Page</a>
                     </li>
                     <li class="nav-item">
                         <a href="#Home" class="navbar-link">Learn More</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#Contactus.html" class="navbar-link">Contact us</a>
+                        <a href="contactus.html" class="navbar-link">Contact Us</a>
                     </li>
                 </ul>
             </div>
@@ -34,7 +34,7 @@
                 <div>
                     <h1>Sign up Now For a New Credit Card</h1>
                 </div>
-                <img class="img-fluid w-0" src="https://www.washsb.com/assets/content/iVUrV9AI/3219370.jpg">
+                <img class="img-fluid w-0 rounded float-end" src="https://www.washsb.com/assets/content/iVUrV9AI/3219370.jpg">
             </div>
         </div>
     </section>
@@ -46,6 +46,10 @@
             <h5 class="card-title">VISA</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
             <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <button type="button" class="btn btn-primary"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                Apply Now!
+            </button>
           </div>
         </div>
         <div class="card">
@@ -54,6 +58,10 @@
             <h5 class="card-title">Discover</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
             <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <button type="button" class="btn btn-primary"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                Apply Now!
+            </button>
           </div>
         </div>
         <div class="card">
@@ -62,9 +70,38 @@
             <h5 class="card-title">American Express</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
             <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+            <button type="button" class="btn btn-primary"
+                style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
+                Apply Now!
+            </button>
           </div>
         </div>
 
-
+        <table class="table table-striped ">
+            <thead>
+              <tr>
+                <th scope="col">Credit Card</th>
+                <th scope="col">APY</th>
+                <th scope="col">Cash Back</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">VISA</th>
+                <td>3.25%</td>
+                <td>1%</td>
+              </tr>
+              <tr>
+                <th scope="row">Discover</th>
+                <td>4.25%</td>
+                <td>2%</td>
+              </tr>
+              <tr>
+                <th scope="row">American Express</th>
+                <td>5.00%</td>
+                <td>3.25%</td>
+              </tr>
+            </tbody>
+          </table>
 </body>
 </html>
